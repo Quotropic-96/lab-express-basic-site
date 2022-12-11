@@ -9,12 +9,20 @@ body {
     font-size: 2rem;
 }
 
-#home-body {
-    background: url(../img/bg_0);
+/* Global styles */
+.quote {
+    color: red;
 }
 
+/* Home styles */
+#home-body {
+    background: url(../img/home_bg);
+}
+
+
+
 #about-body {
-    background: url(../img/about_2);
+    background: url(../img/about_bg);
 }
 
 #works-body {
