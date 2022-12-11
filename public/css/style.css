@@ -1,4 +1,11 @@
+@font-face {
+    font-family: jokerFont;
+    src: url(../font/BebasNeue-Regular.ttf)
+}
+
 body {
     background: url('../img/bg_0');
     color: aliceblue;
+    font-family: jokerFont;    
+    font-size: 2rem;
 }
