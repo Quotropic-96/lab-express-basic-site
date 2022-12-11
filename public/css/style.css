@@ -4,8 +4,21 @@
 }
 
 body {
-    background: url('../img/bg_0');
     color: aliceblue;
     font-family: jokerFont;    
     font-size: 2rem;
+}
+
+#home-body {
+    background: url(../img/bg_0);
+}
+
+#about-body {
+    background: url(../img/about_2);
+}
+
+#works-body {
+    background: url(../img/work_bg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
