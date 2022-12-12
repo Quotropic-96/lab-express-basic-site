@@ -83,6 +83,11 @@ a {
     border: 1px solid #982016;
     border-radius: 5px;
 }
+#magic-trick-btn:hover {
+    background-color: #00010C;
+    border-color: #00010C;
+    color: #982016;
+}
 
 /* About styles */
 #about-body {
