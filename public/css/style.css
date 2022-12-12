@@ -11,6 +11,9 @@ body {
 }
 
 /* Global styles */
+#magic-trick {
+    display: none;
+}
 .section-title {
     margin: 0;
     font-size: 7rem;
@@ -60,6 +63,7 @@ a {
 .btn-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 #about-button:hover {
     background-color: #00010C;
@@ -70,6 +74,14 @@ a {
     background-color: #00010C;
     border-color: #00010C;
     color: #535188;
+}
+#magic-trick-btn {
+    margin-top: 30px;
+    font-family: jokerFont;
+    font-size: 2rem;
+    background-color: #982016;
+    border: 1px solid #982016;
+    border-radius: 5px;
 }
 
 /* About styles */
